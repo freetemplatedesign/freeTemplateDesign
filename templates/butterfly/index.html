@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Flip</title>
+    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <link type="text/css" rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="scss/main.css">
+    <link rel="shortcut icon" type="image/ico" href="assets/favicon.ico"/>
+    <link href='https://fonts.googleapis.com/css?family=Anonymous+Pro|Montserrat|Quicksand' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <section id="shell">
+      <div class="tint">
+      <div class="panel">
+
+        <div class="homeImg"></div>
+        <div class="workImg"></div>
+        <div class="aboutImg"></div>
+        <div class="contactImg"></div>
+
+
+        <div class="homeContent">
+          <div class="centering">
+            <h1 class="name">John Doe</h1>
+            <span class="spacer spacer1"></span>
+            <h2 class="title">Student | Writer | Blogger</h2>
+            <span class="spacer spacer2"></span>
+            <div class=" social">
+              <a href="#" class="icon fa-1x fa fa-instagram" aria-hidden="true"></a>
+              <a href="#" class="icon fa-1x fa fa-snapchat-ghost" aria-hidden="true"></a>
+              <a href="#" class="icon fa-1x fa fa-facebook" aria-hidden="true"></a>
+              <a href="#" class="icon fa-1x fa fa-linkedin" aria-hidden="true"></a>
+              <a href="#" class="icon fa-1x fa fa-twitter" aria-hidden="true"></a>
+            </div>
+          </div>
+
+          <div class="nav">
+            <button class="about navBtn">About</button>
+            <button class="work navBtn">Work</button>
+            <button class="contact navBtn">Contact</button>
+          </div>
+        </div>
+
+        <div class="aboutContent">
+          <div class="textShell">
+            <h1 class="title">About</h1>
+            <div class="wordHold">
+              <p>Lorem ipsum about  dolor sit amet, eos iracundia theophrastus ut,
+                pri eros movet congue no. Ex per summo evertitur. Vix eleifend ullamcorper ut.
+                Ad qui admodum tibique assentior, falli prompta argumentum per te.
+                Quidam scaevola te eos, dolor tritani corrumpit ad vix. Nec eu natum hendrerit.</p>
+              <p>Lorem ipsum dolor sit amet, eos iracundia theophrastus ut,
+                pri eros movet congue no. Ex per summo evertitur. Vix eleifend ullamcorper ut.
+                Ad qui admodum tibique assentior, falli prompta argumentum per te.
+                Quidam scaevola te eos, dolor tritani corrumpit ad vix. Nec eu natum hendrerit.</p>
+              <p>Lorem ipsum dolor sit amet, eos iracundia theophrastus ut,
+                pri eros movet congue no. Ex per summo evertitur. Vix eleifend ullamcorper ut.
+                Ad qui admodum tibique assentior, falli prompta argumentum per te.
+                Quidam scaevola te eos, dolor tritani corrumpit ad vix. Nec eu natum hendrerit.</p>
+            </div>
+          </div>
+          <button class="exit aboutExit">back</button>
+        </div>
+
+        <div class="workContent">
+          <div class="textShell">
+            <h1 class="title">Work</h1>
+            <div class="wordHold">
+              <p>Lorem ipsum work dolor sit amet, eos iracundia theophrastus ut,
+                pri eros movet congue no. Ex per summo evertitur. Vix eleifend ullamcorper ut.
+                Ad qui admodum tibique assentior, falli prompta argumentum per te.
+                Quidam scaevola te eos, dolor tritani corrumpit ad vix. Nec eu natum hendrerit.</p>
+              <p>Lorem ipsum dolor sit amet, eos iracundia theophrastus ut,
+                pri eros movet congue no. Ex per summo evertitur. Vix eleifend ullamcorper ut.
+                Ad qui admodum tibique assentior, falli prompta argumentum per te.
+                Quidam scaevola te eos, dolor tritani corrumpit ad vix. Nec eu natum hendrerit.</p>
+              <p>Lorem ipsum dolor sit amet, eos iracundia theophrastus ut,
+                pri eros movet congue no. Ex per summo evertitur. Vix eleifend ullamcorper ut.
+                Ad qui admodum tibique assentior, falli prompta argumentum per te.
+                Quidam scaevola te eos, dolor tritani corrumpit ad vix. Nec eu natum hendrerit.</p>
+            </div>
+          </div>
+          <button class="exit workExit">back</button>
+        </div>
+
+        <div class="contactContent">
+          <div class="formHold">
+            <h1 class="title">CONTACT</h1>
+            <!-- Replace the line on 98 with the line on 99 for the contact section to work-->
+            <!-- <form action="<http://formspree.io/youremail@provider.com" method="POST" class="cntr">-->
+            <form action="" method="POST" class="cntr">
+              <input name="contactPageName" type="text" id="name" placeholder="Name"/>
+              <input name="email" type="email" id="email" placeholder="Email"/>
+            <!-- temporary comment,  (This is a honeypot to catch webscrapers) -->
+    				<input type="hidden" name="_next" value="responce.html" />
+            <input type="text" name="_gotcha" style="display:none;" />
+              <label for="message"></label>
+              <textarea class="cntr" id="message" name="message" placeholder="Message" Required></textarea>
+              <button class="cntr" type="submit">Submit</button>
+            </form>
+          </div>
+          <button class="exit contactExit">back</button>
+        </div><!-- end contact -->
+
+      </div><!-- end panel-->
+      <a href="#" class="freeTemplateDesign">©2018 freeTemplate.Design</a>
+      </div><!-- end tint-->
+    </section><!-- end shell-->
+    </body>
+
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <!--
+  <script type="text/javascript" src="js/velocity_and_ui.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/ScrollToPlugin.min.js"></script>-->
+
+  <script type="text/javascript" src="js/main.js"></script>
+</html>

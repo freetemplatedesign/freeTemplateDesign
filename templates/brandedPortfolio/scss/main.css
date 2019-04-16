@@ -1,0 +1,138 @@
+/* definings */
+/* global styles */
+* {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.cntr {
+  display: block;
+  margin: 0 auto; }
+
+.crcl {
+  border-radius: 100%; }
+
+.ul {
+  text-align: center; }
+
+.li {
+  display: inline-block; }
+
+html {
+  height: 100%;
+  min-height: 100%; }
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  position: relative; }
+
+/*
+*
+*  Project Start
+*
+*/
+body,
+#shell {
+  background-color: #E5989B; }
+
+.matharu {
+  position: fixed;
+  margin: 0 !important;
+  padding: !important;
+  font-size: 15px;
+  z-index: 10;
+  bottom: 20px;
+  left: 20px;
+  text-align: left;
+  font-family: "Inconsolata", monospace;
+  opacity: 0; }
+  .matharu a {
+    color: inherit;
+    padding: 5px; }
+
+#shell {
+  position: relative; }
+  #shell .menu {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    top: 45px;
+    right: 45px;
+    z-index: 20; }
+    #shell .menu:hover {
+      cursor: pointer; }
+    #shell .menu .line {
+      background-color: #433C4F;
+      position: absolute;
+      width: 100%;
+      height: 5px;
+      left: 0; }
+    #shell .menu .line1 {
+      top: 0; }
+    #shell .menu .line2 {
+      top: 17px; }
+    #shell .menu .line3 {
+      bottom: 0; }
+  #shell .logoName {
+    width: auto;
+    text-align: center;
+    font-family: "Sacramento", cursive;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 30; }
+    #shell .logoName a {
+      color: white; }
+  #shell .linksHolder {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 350px;
+    width: 450px;
+    z-index: 20; }
+    #shell .linksHolder ul {
+      text-align: center;
+      text-align-last: center; }
+      #shell .linksHolder ul .brandItem {
+        font-family: "Inconsolata", monospace;
+        font-size: 35px;
+        letter-spacing: 5px; }
+        #shell .linksHolder ul .brandItem a {
+          color: black;
+          padding: 0 10px; }
+  #shell .backgroundImages {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    text-align: center; }
+    #shell .backgroundImages .image {
+      width: auto;
+      height: 100%;
+      display: block;
+      margin: 0 auto; }
+
+/*Page Specifics*/
+
+/*# sourceMappingURL=main.css.map */

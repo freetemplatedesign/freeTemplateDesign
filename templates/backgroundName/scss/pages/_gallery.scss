@@ -1,0 +1,36 @@
+#galleryContainer{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 100vh;
+  width: 80vw;
+  //border: 2px solid tomato;
+  overflow: scroll;
+  text-align: center;
+  z-index: 100;
+  padding-bottom: 100px;
+
+
+
+
+    .galleryImg{
+      padding-top: 100px;
+      //border: 2px solid lime;
+      height: auto;
+      width: auto;
+
+
+      img{
+        height: auto;
+        width: auto;
+
+        max-height: 100% !important;
+        max-width: 90% !important;
+
+      }
+    }
+
+}//end galleryCOntainer

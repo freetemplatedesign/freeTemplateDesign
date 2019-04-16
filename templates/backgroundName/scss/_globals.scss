@@ -1,0 +1,377 @@
+*{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+
+.cntr{
+  display: block;
+  margin: 0 auto;
+}
+
+.crcl{
+  border-radius: 100%;
+}
+
+.ul{
+  text-align: center;
+}
+
+.li{
+  display: inline-block;
+}
+html{
+	height: 100%;
+	min-height: 100%;
+}
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+  position: relative;
+}
+
+/*
+*
+*  Project Start
+*
+*/
+body{
+  background-color: #210202;
+}
+
+@media only screen and (max-width: 1400px){
+  .name{
+    position: relative !important;
+    display: block !important;
+    margin: 20px auto 0 auto !important;
+    text-align: center !important;
+    border: 1px solid white !important;
+    pointer-events: all !important;
+    opacity: 1 !important;
+    font-size: 10vw !important;
+    height: auto !important;
+  }
+  .imageContainer{
+    position: relative !important;
+    display: block !important;
+    margin: 50px auto 0 auto !important;
+    width: 80% !important;
+    border: 1px solid tomato !important;
+
+    .row{
+      height: auto !important;
+      .item{
+        position: relative !important;
+        display: block !important;
+        margin: 0 auto 10% auto !important;
+        width: 60vw !important;
+        height: 60vw !important;
+        opacity: 1 !important;
+
+      }
+
+    }//end row
+    .itemLink,
+    .itemText{
+      opacity: 1 !important;
+      pointer-events: all !important;
+    }
+
+
+  }//end imageContainer
+
+
+}//end 1400px
+
+#shell{
+  height: 100%;
+  width: 100%;
+  background-color: #210202;
+  overflow-x: hidden;
+
+  .freeTemplateDesign{
+    position: fixed;
+    text-align: center;
+    bottom:30px;
+    left:0;
+    right: 0;
+    margin: auto;
+    width: 170px;
+    //border: 1px solid white;
+    font-family: $incon;
+    opacity: 1;
+
+    color: #6b1916;
+    //color: #a0a0a0;
+    padding: 10px;
+    &:visited{
+      color: #6b1916;
+      //color: #a0a0a0;
+    }
+    &:hover{
+      //cursor: crosshair;
+    }
+
+    .freeLine{
+      position: absolute;
+      bottom:-4px;
+      left:0;
+      right:0;
+      margin: auto;
+      height: 3px !important;
+      width: 0;
+      background-color: #6b1916;
+
+    }
+  }// end freeTemplateDesign
+
+  .name{
+    //border: 5px solid white;
+    height: 80%;
+    width: 100%;
+    color: white;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    pointer-events: none;
+    opacity: 0.3;
+    z-index: 10;
+
+
+    font-size: 22vw;
+    //font-size: 40vh;
+    word-wrap: break-word;
+    font-family: 'Yeseva One', cursive;
+
+  }//end name
+  .links{
+    position: fixed;
+    bottom:50px;
+    right: 50px;
+    width: 200px;
+    //border: 1px solid white;
+    font-family: $incon;
+    font-size: 25px;
+    text-align: right;
+    z-index: 50;
+
+    a{
+      //color: #6b1916;
+      color: #a0a0a0;
+
+      &:hover{
+        color: #ece78d;
+      }
+    }
+
+    @media only screen and (min-width: 1401px){
+      a{
+        color: lightblue;
+      }
+    }
+
+  }//end links
+
+  .menu{
+    position: fixed;
+     top:50px;
+     right:50px;
+     color: white;
+     font-family: $incon;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     font-size: 25px;
+
+     @media only screen and (min-width: 1401px){
+       display: none;
+     }
+
+     &:hover{
+        color: #ece78d;
+        cursor: pointer;
+
+     }
+
+  }//end menu
+
+  .social{
+    position: absolute;
+    top:0;
+    right: 50px;
+    bottom:0;
+    margin: auto;
+    width: 100px;
+    height: 275px;
+    border: 2px solid white;
+    z-index: 25;
+
+    @media only screen and (max-width: 1401px){
+        bottom:30px;
+        left: 30px;
+        top: auto;
+        right: auto;
+        margin: none;
+        border: 2px solid tomato;
+        //width: 150px;
+
+
+        li{
+          //border: 2px solid white;
+        }
+
+      a{
+        color: tomato !important;
+      }
+    }//end 1401
+
+
+    li{
+      &:hover{
+        a{
+          color: #ece78d;
+
+        }
+      }
+      &:visited{
+        color: lightblue;
+      }
+    }
+
+    a{
+      font-size: 50px;
+      //color: #6b1916;
+      color: #a0a0a0;
+      padding-bottom: 20px;
+
+    }
+  }
+
+  .imageContainer{
+    //border: 2px solid white;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
+    height: 80%;
+    width: 70%;
+    text-align: center;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    z-index: 20;
+
+.row{
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  height: 24vw;
+  width: 100%;
+  //border: 1px solid tomato;
+
+  .item{
+    position: absolute;
+    top:0;
+    height: 20vw;
+    width: 20vw;
+    opacity:0.9;
+    background-color: #713c3c;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .itemLink,
+    .itemText{
+      position: absolute;
+      bottom:-50px;
+      right: 0;
+      //left: 0;
+      //right:0;
+      //margin: auto;
+      font-size: 20px;
+      font-family: $incon;
+      color: lightblue;
+      //border: 1px solid white;
+      padding: 20px 0 20px 20px;
+      opacity: 0;
+      pointer-events: none;
+      &:hover{
+        //cursor: crosshair !important;
+      }
+
+    }//end itemLink
+
+
+  }//end item
+
+  .itemLeft{
+    left:0;
+  }
+  .itemCenter{
+    left:0;
+    right:0;
+    margin: auto;
+  }
+  .itemRight{
+    right:0;
+  }
+
+}//end row
+
+/*
+    .item{
+      display: inline-block;
+      vertical-align: top;
+
+      height: 20vw;
+      width: 20vw;
+      //border: 1px solid white;
+      background-color: #6D0606;
+      opacity:0.8;
+      margin-bottom:5px;
+      //margin:40px 20px 0 40px;
+
+    }//end item
+    */
+
+  }//end imageContainer
+}//end shell
+
+.item12{
+  background-image: url("../img/1.jpg");
+}
+.item11{
+  background-image: url("../img/2.jpg");
+}
+.item10{
+  background-image: url("../img/3.jpg");
+}
+.item9{
+  background-image: url("../img/4.jpg");
+}
+.item8{
+  background-image: url("../img/5.jpg");
+}
+.item7{
+  background-image: url("../img/6.jpg");
+}
+.item6{
+  background-image: url("../img/7.jpg");
+}
+.item5{
+  background-image: url("../img/8.jpg");
+}
+.item4{
+  background-image: url("../img/9.jpg");
+}
